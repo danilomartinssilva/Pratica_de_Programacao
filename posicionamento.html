@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Posicionamento</title>
+    </head>
+    <style type="text/css">
+    *{
+        margin:0;
+        padding:0;
+    }
+        body{
+            background-color: #eeeeee;
+        }
+        .vermelho{
+            background-color:firebrick;
+            width:800px;
+            height: 800px;
+ 
+        }
+        .azul{
+            background-color:dodgerblue;
+            width:400px;
+            height:400px;
+            transition-timing-function:linear;
+
+        }
+        .azul:hover{
+            
+        }
+
+        .amarelo{
+            background-color:#E80C0C;
+            width:50px;
+            height: 50px;
+            position:fixed;
+            top:50%;
+            right:20px;
+            border-radius:25px;
+            color:#ffffff;
+            font-size:40px;
+            text-align: center;
+            font-weight:bold;
+           /*  border:2px dashed #000000; */
+        }
+        .amarelo:hover{
+            background-color:#E86A0C;
+            cursor: pointer;
+        }
+    
+    </style>
+
+    <body>
+        <div class="vermelho">
+                <div class="azul"></div>
+        </div>
+        
+        <div class="amarelo">+</div>
+    </body>
+</html>
